@@ -1,0 +1,15 @@
+C:\Users\celimpilom\aYo\test\aYo.TechnicalTest.Services\bin\Debug\netcoreapp3.1\aYo.TechnicalTest.Services.deps.json
+C:\Users\celimpilom\aYo\test\aYo.TechnicalTest.Services\bin\Debug\netcoreapp3.1\aYo.TechnicalTest.Services.dll
+C:\Users\celimpilom\aYo\test\aYo.TechnicalTest.Services\bin\Debug\netcoreapp3.1\aYo.TechnicalTest.Services.pdb
+C:\Users\celimpilom\aYo\test\aYo.TechnicalTest.Services\obj\Debug\netcoreapp3.1\aYo.TechnicalTest.Services.csprojAssemblyReference.cache
+C:\Users\celimpilom\aYo\test\aYo.TechnicalTest.Services\obj\Debug\netcoreapp3.1\aYo.TechnicalTest.Services.AssemblyInfoInputs.cache
+C:\Users\celimpilom\aYo\test\aYo.TechnicalTest.Services\obj\Debug\netcoreapp3.1\aYo.TechnicalTest.Services.AssemblyInfo.cs
+C:\Users\celimpilom\aYo\test\aYo.TechnicalTest.Services\obj\Debug\netcoreapp3.1\aYo.TechnicalTest.Services.dll
+C:\Users\celimpilom\aYo\test\aYo.TechnicalTest.Services\obj\Debug\netcoreapp3.1\aYo.TechnicalTest.Services.pdb
+C:\Users\celimpilom\aYo\test\aYo.TechnicalTest.Services\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\celimpilom\aYo\test\aYo.TechnicalTest.Services\bin\Debug\netcoreapp3.1\aYo.TechnicalTest.Data.dll
+C:\Users\celimpilom\aYo\test\aYo.TechnicalTest.Services\bin\Debug\netcoreapp3.1\aYo.TechnicalTest.Models.dll
+C:\Users\celimpilom\aYo\test\aYo.TechnicalTest.Services\bin\Debug\netcoreapp3.1\aYo.TechnicalTest.Data.pdb
+C:\Users\celimpilom\aYo\test\aYo.TechnicalTest.Services\bin\Debug\netcoreapp3.1\aYo.TechnicalTest.Models.pdb
+C:\Users\celimpilom\aYo\test\aYo.TechnicalTest.Services\obj\Debug\netcoreapp3.1\aYo.TechnicalTest.Services.csproj.CopyComplete
+C:\Users\celimpilom\aYo\test\aYo.TechnicalTest.Services\obj\Debug\netcoreapp3.1\aYo.TechnicalTest.Services.csproj.CoreCompileInputs.cache

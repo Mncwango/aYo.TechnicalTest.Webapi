@@ -1,0 +1,44 @@
+version: '3.5'
+
+services:
+  postgres:
+    image: "postgres" 
+    container_name: postgres
+    ports:
+      - "5432:5432"
+    env_file:
+      - database.env 
+    volumes:
+       - postgres:/data/postgres
+    networks:
+      - postgresNetwork
+    restart: unless-stopped
+ 
+  ayo.technicaltest.webapi:
+    image: ${DOCKER_REGISTRY-}ayotechnicaltestwebapi
+    ports:
+      - "8081:80"
+      - "5001:443"
+    networks:
+      - postgresNetwork
+    environment:
+      - ASPNETCORE_URLS=https://+:443;http://+:80
+      - ASPNETCORE_HTTPS_PORT=5001
+      - ASPNETCORE_ENVIROMENT=Development
+      - ASPNETCORE_Kestrel__Certificates__Default__Password=password
+      - ASPNETCORE_Kestrel__Certificates__Default__Path=/.aspnet/https/aYo.TechnicalTest.Webapi.pfx
+    build:
+      context: .
+      dockerfile: Dockerfile
+
+networks:
+  postgresNetwork:
+  hostNetwork:
+     external: 
+        name: host
+  default:
+    external:
+      name: bridge
+volumes:
+  postgres:
+  pgadmin:
