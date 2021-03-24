@@ -1,0 +1,259 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\celimpilom\\aYo\\test\\aYo.TechnicalTest.Services\\aYo.TechnicalTest.Services.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\celimpilom\\aYo\\test\\aYo.TechnicalTest.Data\\aYo.TechnicalTest.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\celimpilom\\aYo\\test\\aYo.TechnicalTest.Data\\aYo.TechnicalTest.Data.csproj",
+        "projectName": "aYo.TechnicalTest.Data",
+        "projectPath": "C:\\Users\\celimpilom\\aYo\\test\\aYo.TechnicalTest.Data\\aYo.TechnicalTest.Data.csproj",
+        "packagesPath": "C:\\Users\\celimpilom\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\celimpilom\\aYo\\test\\aYo.TechnicalTest.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\celimpilom\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://lsproperty.pkgs.visualstudio.com/_packaging/Lightstone.Common/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\celimpilom\\aYo\\test\\aYo.TechnicalTest.Models\\aYo.TechnicalTest.Models.csproj": {
+                "projectPath": "C:\\Users\\celimpilom\\aYo\\test\\aYo.TechnicalTest.Models\\aYo.TechnicalTest.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.AspNetCore.ApiAuthorization.IdentityServer": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "target": "Package",
+              "version": "[5.0.4, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Binder": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.FileExtensions": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.NewtonsoftJson": {
+              "target": "Package",
+              "version": "[5.0.1, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[5.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.407\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\celimpilom\\aYo\\test\\aYo.TechnicalTest.Models\\aYo.TechnicalTest.Models.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\celimpilom\\aYo\\test\\aYo.TechnicalTest.Models\\aYo.TechnicalTest.Models.csproj",
+        "projectName": "aYo.TechnicalTest.Models",
+        "projectPath": "C:\\Users\\celimpilom\\aYo\\test\\aYo.TechnicalTest.Models\\aYo.TechnicalTest.Models.csproj",
+        "packagesPath": "C:\\Users\\celimpilom\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\celimpilom\\aYo\\test\\aYo.TechnicalTest.Models\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\celimpilom\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://lsproperty.pkgs.visualstudio.com/_packaging/Lightstone.Common/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.4, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "Swashbuckle.AspNetCore.Newtonsoft": {
+              "target": "Package",
+              "version": "[6.1.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.407\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\celimpilom\\aYo\\test\\aYo.TechnicalTest.Services\\aYo.TechnicalTest.Services.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\celimpilom\\aYo\\test\\aYo.TechnicalTest.Services\\aYo.TechnicalTest.Services.csproj",
+        "projectName": "aYo.TechnicalTest.Services",
+        "projectPath": "C:\\Users\\celimpilom\\aYo\\test\\aYo.TechnicalTest.Services\\aYo.TechnicalTest.Services.csproj",
+        "packagesPath": "C:\\Users\\celimpilom\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\celimpilom\\aYo\\test\\aYo.TechnicalTest.Services\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\celimpilom\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://lsproperty.pkgs.visualstudio.com/_packaging/Lightstone.Common/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\celimpilom\\aYo\\test\\aYo.TechnicalTest.Data\\aYo.TechnicalTest.Data.csproj": {
+                "projectPath": "C:\\Users\\celimpilom\\aYo\\test\\aYo.TechnicalTest.Data\\aYo.TechnicalTest.Data.csproj"
+              },
+              "C:\\Users\\celimpilom\\aYo\\test\\aYo.TechnicalTest.Models\\aYo.TechnicalTest.Models.csproj": {
+                "projectPath": "C:\\Users\\celimpilom\\aYo\\test\\aYo.TechnicalTest.Models\\aYo.TechnicalTest.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[10.1.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.407\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

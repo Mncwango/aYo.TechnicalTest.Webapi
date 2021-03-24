@@ -1,0 +1,10 @@
+version: '3.4'
+
+services:
+  ayo.technicaltest.webapi:
+    ports:
+      - "8081:80"
+      - "5001:443"
+    volumes:
+      - ${APPDATA}/Microsoft/UserSecrets:/root/.microsoft/usersecrets
+      - ${USERPROFILE}/.aspnet/Https:/root/.aspnet/https
