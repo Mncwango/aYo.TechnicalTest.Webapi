@@ -1077,11 +1077,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\celimpilom\\aYo\\test\\aYo.TechnicalTest.Models\\aYo.TechnicalTest.Models.csproj",
+      "projectUniqueName": "C:\\work\\Mncwango\\aYo.TechnicalTest.Webapi\\aYo.TechnicalTest.Models\\aYo.TechnicalTest.Models.csproj",
       "projectName": "aYo.TechnicalTest.Models",
-      "projectPath": "C:\\Users\\celimpilom\\aYo\\test\\aYo.TechnicalTest.Models\\aYo.TechnicalTest.Models.csproj",
+      "projectPath": "C:\\work\\Mncwango\\aYo.TechnicalTest.Webapi\\aYo.TechnicalTest.Models\\aYo.TechnicalTest.Models.csproj",
       "packagesPath": "C:\\Users\\celimpilom\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\celimpilom\\aYo\\test\\aYo.TechnicalTest.Models\\obj\\",
+      "outputPath": "C:\\work\\Mncwango\\aYo.TechnicalTest.Webapi\\aYo.TechnicalTest.Models\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

@@ -7,3 +7,12 @@ C:\Users\celimpilom\aYo\test\aYo.TechnicalTest.Models\obj\Debug\netcoreapp3.1\aY
 C:\Users\celimpilom\aYo\test\aYo.TechnicalTest.Models\obj\Debug\netcoreapp3.1\aYo.TechnicalTest.Models.dll
 C:\Users\celimpilom\aYo\test\aYo.TechnicalTest.Models\obj\Debug\netcoreapp3.1\aYo.TechnicalTest.Models.pdb
 C:\Users\celimpilom\aYo\test\aYo.TechnicalTest.Models\obj\Debug\netcoreapp3.1\aYo.TechnicalTest.Models.csproj.CoreCompileInputs.cache
+C:\work\Mncwango\aYo.TechnicalTest.Webapi\aYo.TechnicalTest.Models\bin\Debug\netcoreapp3.1\aYo.TechnicalTest.Models.deps.json
+C:\work\Mncwango\aYo.TechnicalTest.Webapi\aYo.TechnicalTest.Models\bin\Debug\netcoreapp3.1\aYo.TechnicalTest.Models.dll
+C:\work\Mncwango\aYo.TechnicalTest.Webapi\aYo.TechnicalTest.Models\bin\Debug\netcoreapp3.1\aYo.TechnicalTest.Models.pdb
+C:\work\Mncwango\aYo.TechnicalTest.Webapi\aYo.TechnicalTest.Models\obj\Debug\netcoreapp3.1\aYo.TechnicalTest.Models.csprojAssemblyReference.cache
+C:\work\Mncwango\aYo.TechnicalTest.Webapi\aYo.TechnicalTest.Models\obj\Debug\netcoreapp3.1\aYo.TechnicalTest.Models.AssemblyInfoInputs.cache
+C:\work\Mncwango\aYo.TechnicalTest.Webapi\aYo.TechnicalTest.Models\obj\Debug\netcoreapp3.1\aYo.TechnicalTest.Models.AssemblyInfo.cs
+C:\work\Mncwango\aYo.TechnicalTest.Webapi\aYo.TechnicalTest.Models\obj\Debug\netcoreapp3.1\aYo.TechnicalTest.Models.csproj.CoreCompileInputs.cache
+C:\work\Mncwango\aYo.TechnicalTest.Webapi\aYo.TechnicalTest.Models\obj\Debug\netcoreapp3.1\aYo.TechnicalTest.Models.dll
+C:\work\Mncwango\aYo.TechnicalTest.Webapi\aYo.TechnicalTest.Models\obj\Debug\netcoreapp3.1\aYo.TechnicalTest.Models.pdb

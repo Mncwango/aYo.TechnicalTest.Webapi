@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\celimpilom\\aYo\\test\\aYo.TechnicalTest.Data\\aYo.TechnicalTest.Data.csproj": {}
+    "C:\\work\\Mncwango\\aYo.TechnicalTest.Webapi\\aYo.TechnicalTest.Data\\aYo.TechnicalTest.Data.csproj": {}
   },
   "projects": {
-    "C:\\Users\\celimpilom\\aYo\\test\\aYo.TechnicalTest.Data\\aYo.TechnicalTest.Data.csproj": {
+    "C:\\work\\Mncwango\\aYo.TechnicalTest.Webapi\\aYo.TechnicalTest.Data\\aYo.TechnicalTest.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\celimpilom\\aYo\\test\\aYo.TechnicalTest.Data\\aYo.TechnicalTest.Data.csproj",
+        "projectUniqueName": "C:\\work\\Mncwango\\aYo.TechnicalTest.Webapi\\aYo.TechnicalTest.Data\\aYo.TechnicalTest.Data.csproj",
         "projectName": "aYo.TechnicalTest.Data",
-        "projectPath": "C:\\Users\\celimpilom\\aYo\\test\\aYo.TechnicalTest.Data\\aYo.TechnicalTest.Data.csproj",
+        "projectPath": "C:\\work\\Mncwango\\aYo.TechnicalTest.Webapi\\aYo.TechnicalTest.Data\\aYo.TechnicalTest.Data.csproj",
         "packagesPath": "C:\\Users\\celimpilom\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\celimpilom\\aYo\\test\\aYo.TechnicalTest.Data\\obj\\",
+        "outputPath": "C:\\work\\Mncwango\\aYo.TechnicalTest.Webapi\\aYo.TechnicalTest.Data\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -30,8 +30,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\celimpilom\\aYo\\test\\aYo.TechnicalTest.Models\\aYo.TechnicalTest.Models.csproj": {
-                "projectPath": "C:\\Users\\celimpilom\\aYo\\test\\aYo.TechnicalTest.Models\\aYo.TechnicalTest.Models.csproj"
+              "C:\\work\\Mncwango\\aYo.TechnicalTest.Webapi\\aYo.TechnicalTest.Models\\aYo.TechnicalTest.Models.csproj": {
+                "projectPath": "C:\\work\\Mncwango\\aYo.TechnicalTest.Webapi\\aYo.TechnicalTest.Models\\aYo.TechnicalTest.Models.csproj"
               }
             }
           }
@@ -112,14 +112,14 @@
         }
       }
     },
-    "C:\\Users\\celimpilom\\aYo\\test\\aYo.TechnicalTest.Models\\aYo.TechnicalTest.Models.csproj": {
+    "C:\\work\\Mncwango\\aYo.TechnicalTest.Webapi\\aYo.TechnicalTest.Models\\aYo.TechnicalTest.Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\celimpilom\\aYo\\test\\aYo.TechnicalTest.Models\\aYo.TechnicalTest.Models.csproj",
+        "projectUniqueName": "C:\\work\\Mncwango\\aYo.TechnicalTest.Webapi\\aYo.TechnicalTest.Models\\aYo.TechnicalTest.Models.csproj",
         "projectName": "aYo.TechnicalTest.Models",
-        "projectPath": "C:\\Users\\celimpilom\\aYo\\test\\aYo.TechnicalTest.Models\\aYo.TechnicalTest.Models.csproj",
+        "projectPath": "C:\\work\\Mncwango\\aYo.TechnicalTest.Webapi\\aYo.TechnicalTest.Models\\aYo.TechnicalTest.Models.csproj",
         "packagesPath": "C:\\Users\\celimpilom\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\celimpilom\\aYo\\test\\aYo.TechnicalTest.Models\\obj\\",
+        "outputPath": "C:\\work\\Mncwango\\aYo.TechnicalTest.Webapi\\aYo.TechnicalTest.Models\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using aYo.TechnicalTest.Models;
 using aYo.TechnicalTest.Services;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
@@ -11,6 +12,7 @@ namespace aYo.TechnicalTest.Webapi.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    [Authorize]
     public class ConversionController : ControllerBase
         
     {

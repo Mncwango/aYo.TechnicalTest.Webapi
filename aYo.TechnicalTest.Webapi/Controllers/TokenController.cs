@@ -7,6 +7,8 @@ using System.Text;
 using System.Threading.Tasks;
 using aYo.TechnicalTest.Data;
 using aYo.TechnicalTest.Models;
+using aYo.TechnicalTest.Services;
+using aYo.TechnicalTest.Webapi.Models;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
@@ -20,21 +22,21 @@ namespace aYo.TechnicalTest.Webapi.Controllers
     public class TokenController : ControllerBase
     {
         public IConfiguration _configuration;
-        private readonly ApplicationDbContext _context;
+        private readonly IUserService _userService;
 
-        public TokenController(IConfiguration config, ApplicationDbContext context)
+        public TokenController(IConfiguration config, IUserService userService)
         {
             _configuration = config;
-            _context = context;
+            _userService = userService;
         }
 
         [HttpPost]
-        public async Task<IActionResult> Post(ApplicationUser _userData)
+        public async Task<IActionResult> Post([FromBody] ApplicationUserModel userData)
         {
 
-            if (_userData != null && _userData.Email != null && _userData.Password != null)
+            if (userData != null && userData.Email != null && userData.Password != null)
             {
-                var user = await GetUser(_userData.Email, _userData.Password);
+                var user = await GetUser(userData.Email, userData.Password);
 
                 if (user != null)
                 {
@@ -69,9 +71,41 @@ namespace aYo.TechnicalTest.Webapi.Controllers
             }
         }
 
+        [Route("CreateUser")]
+        [HttpPost]
+        public async Task<IActionResult> Create([FromBody] ApplicationUserCreate _userData)
+        {
+
+            if (_userData != null && _userData.Email != null && _userData.Password != null)
+            {
+                var user = await GetUser(_userData.Email, _userData.Password);
+
+                if (user == null)
+                {
+                    return Ok(_userService.CreateUser(new ApplicationUser
+                    {
+                        Email = _userData.Email,
+                        CreatedDate = TimeSpan.FromTicks(DateTime.Now.Ticks),
+                        FirstName = _userData.FirstName,
+                        LastName = _userData.LastName,
+                        Password = _userData.Password,
+                        UserName = _userData.UserName
+                    }));
+                }
+                else
+                {
+                    return BadRequest("User already exist");
+                }
+            }
+            else
+            {
+                return BadRequest();
+            }
+        }
+
         private async Task<ApplicationUser> GetUser(string email, string password)
         {
-            return await _context.Users.FirstOrDefaultAsync(u => u.Email == email && u.Password == password);
+            return await this._userService.GetUser(email, password);
         }
     }
 }

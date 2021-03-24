@@ -70,6 +70,7 @@ namespace aYo.TechnicalTest.Webapi
             services.AddTransient<IUnitOfWork, UnitOfWork>();
             services.AddTransient<IUnitOfWork, UnitOfWork>();
             services.AddTransient(typeof(IConversionService), typeof(ConversionService));
+            services.AddTransient(typeof(IUserService), typeof(UserService));
 
         }
 

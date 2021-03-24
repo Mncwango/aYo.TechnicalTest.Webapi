@@ -48,3 +48,4 @@ C:\Users\celimpilom\aYo\test\aYo.TechnicalTest.Webapi\bin\Debug\Microsoft.Identi
 C:\Users\celimpilom\aYo\test\aYo.TechnicalTest.Webapi\bin\Debug\Microsoft.IdentityModel.Protocols.dll
 C:\Users\celimpilom\aYo\test\aYo.TechnicalTest.Webapi\bin\Debug\Microsoft.IdentityModel.Logging.dll
 C:\Users\celimpilom\aYo\test\aYo.TechnicalTest.Webapi\bin\Debug\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\work\Mncwango\aYo.TechnicalTest.Webapi\aYo.TechnicalTest.Webapi\obj\Debug\docker-compose.dcproj.CoreCompileInputs.cache
