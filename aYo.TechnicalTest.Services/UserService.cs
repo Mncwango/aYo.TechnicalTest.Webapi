@@ -27,5 +27,10 @@ namespace aYo.TechnicalTest.Services
         {
             return await _unitOfWork.GetRepository<ApplicationUser>().GetOne(u => u.Email == email && u.Password == password);
         }
+
+        public async Task<ApplicationUser> GetUser(int UserId)
+        {
+            return await _unitOfWork.GetRepository<ApplicationUser>().GetOne(u => u.UserId == UserId);
+        }
     }
 }

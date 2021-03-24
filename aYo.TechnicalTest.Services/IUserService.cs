@@ -10,5 +10,6 @@ namespace aYo.TechnicalTest.Services
     {
         Task<ApplicationUser> GetUser(string email, string password);
         Task CreateUser(ApplicationUser applicationUser);
+        Task<ApplicationUser> GetUser(int UserId);
     }
 }

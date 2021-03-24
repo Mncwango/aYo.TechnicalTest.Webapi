@@ -38,12 +38,28 @@ namespace aYo.TechnicalTest.Webapi
             services.AddControllers().AddNewtonsoftJson(options =>
         options.SerializerSettings.Converters.Add(new StringEnumConverter())); 
             services.AddDbContext<ApplicationDbContext>(p => p.UseNpgsql(Configuration.GetConnectionString("DefaultConnection"), m => m.MigrationsAssembly("aYo.TechnicalTest.Data")));
-            services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme).AddJwtBearer(options =>
+
+
+            services.AddAuthentication(x =>
             {
-                options.RequireHttpsMetadata = false;
-                options.SaveToken = true;
-                options.TokenValidationParameters = new TokenValidationParameters()
+                x.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
+                x.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
+            })
+            .AddJwtBearer(x =>
+            {
+                x.Events = new JwtBearerEvents
                 {
+                    //OnTokenValidated = context =>
+                    //{
+                    //    return Task.CompletedTask;
+                    //}
+                    
+                };
+                x.RequireHttpsMetadata = false;
+                x.SaveToken = true;
+                x.TokenValidationParameters = new TokenValidationParameters
+                {
+                    ValidateIssuerSigningKey = true,
                     ValidateIssuer = true,
                     ValidateAudience = true,
                     ValidAudience = Configuration["Jwt:Audience"],
@@ -51,6 +67,19 @@ namespace aYo.TechnicalTest.Webapi
                     IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(Configuration["Jwt:Key"]))
                 };
             });
+            //services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme).AddJwtBearer(options =>
+            //{
+            //    options.RequireHttpsMetadata = false;
+            //    options.SaveToken = true;
+            //    options.TokenValidationParameters = new TokenValidationParameters()
+            //    {
+            //        ValidateIssuer = true,
+            //        ValidateAudience = true,
+            //        ValidAudience = Configuration["Jwt:Audience"],
+            //        ValidIssuer = Configuration["Jwt:Issuer"],
+            //        IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(Configuration["Jwt:Key"]))
+            //    };
+            //});
 
             services.AddSwaggerGen(c =>
             {
@@ -86,7 +115,7 @@ namespace aYo.TechnicalTest.Webapi
             app.UseRouting();
             app.UseCors("CorsPolicy-public");
             app.UseSwagger();
-
+            app.UseAuthentication();
             app.UseAuthorization();
             app.UseSwaggerUI(c =>
             {
