@@ -23,5 +23,11 @@
     <ProjectReference Include="..\aYo.TechnicalTest.Services\aYo.TechnicalTest.Services.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <None Update="%25USERPROFILE%25.aspnethttpsaYo.TechnicalTest.Webapi.pfx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
 
 </Project>

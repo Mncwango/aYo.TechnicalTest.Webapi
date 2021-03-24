@@ -17,7 +17,7 @@ namespace aYo.TechnicalTest.Services
             this._unitOfWork = unitOfWork;
         }
 
-        public async Task<int> Converstion(int inputA, ConversionType conversionType, ConversionUnits conversionUnits)
+        public async Task<double> Converstion(int inputA, ConversionType conversionType, ConversionUnits conversionUnits)
         {
             switch (conversionType)
             {
@@ -85,13 +85,13 @@ namespace aYo.TechnicalTest.Services
                     {
                         if (conversionUnits == ConversionUnits.Liter)
                         {
-                            var output = (inputA / 1000);
+                            var output = (inputA * 1000);
                             await Audit(inputA, output.ToString(), conversionType, ConversionUnits.Liter);
                             return output;
                         }
                         else
                         {
-                            var output = (inputA * 1000);
+                            var output = (inputA / 1000);
                             await Audit(inputA, output.ToString(), conversionType, ConversionUnits.Mililiter);
                             return output;
                         }
@@ -102,13 +102,13 @@ namespace aYo.TechnicalTest.Services
                         {
                             var output = (inputA / 3.6);
                             await Audit(inputA, output.ToString(), conversionType, ConversionUnits.KiloMeterPerHour);
-                            return (int)output;
+                            return output;
                         }
                         else
                         {
                             var output = (inputA * 3.6);
                             await Audit(inputA, output.ToString(), conversionType, ConversionUnits.MeterPerSecond);
-                            return (int)output;
+                            return output;
                         }
                     }
                 default:

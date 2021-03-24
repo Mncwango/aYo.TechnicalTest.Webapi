@@ -8,6 +8,6 @@ namespace aYo.TechnicalTest.Services
 {
     public interface IConversionService
     {
-        Task<int> Converstion(int inputA, ConversionType conversionType, ConversionUnits conversionUnits);
+        Task<double> Converstion(int inputA, ConversionType conversionType, ConversionUnits conversionUnits);
     }
 }

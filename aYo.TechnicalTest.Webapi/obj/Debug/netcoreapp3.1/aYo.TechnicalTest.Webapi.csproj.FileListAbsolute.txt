@@ -178,3 +178,4 @@ C:\work\Mncwango\aYo.TechnicalTest.Webapi\aYo.TechnicalTest.Webapi\obj\Debug\net
 C:\work\Mncwango\aYo.TechnicalTest.Webapi\aYo.TechnicalTest.Webapi\obj\Debug\netcoreapp3.1\staticwebassets\aYo.TechnicalTest.Webapi.StaticWebAssets.Manifest.cache
 C:\work\Mncwango\aYo.TechnicalTest.Webapi\aYo.TechnicalTest.Webapi\obj\Debug\netcoreapp3.1\staticwebassets\aYo.TechnicalTest.Webapi.StaticWebAssets.xml
 C:\work\Mncwango\aYo.TechnicalTest.Webapi\aYo.TechnicalTest.Webapi\obj\Debug\netcoreapp3.1\aYo.TechnicalTest.Webapi.genruntimeconfig.cache
+C:\work\Mncwango\aYo.TechnicalTest.Webapi\aYo.TechnicalTest.Webapi\bin\Debug\netcoreapp3.1\%USERPROFILE%.aspnethttpsaYo.TechnicalTest.Webapi.pfx

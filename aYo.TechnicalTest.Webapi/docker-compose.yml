@@ -13,16 +13,31 @@ services:
     networks:
       - postgresNetwork
     restart: unless-stopped
- 
+    
+  pgadmin:
+    container_name: pgadmin_container
+    image: dpage/pgadmin4
+    environment:
+      PGADMIN_DEFAULT_EMAIL: 'pgadmin4@pgadmin.org'
+      PGADMIN_DEFAULT_PASSWORD: 'admin'
+      PGADMIN_CONFIG_SERVER_MODE: 'False'
+    volumes:
+       - pgadmin:/root/.pgadmin
+    ports:
+      - "5050:80"
+    networks:
+      - postgresNetwork
+    restart: unless-stopped
+
   ayo.technicaltest.webapi:
     image: ${DOCKER_REGISTRY-}ayotechnicaltestwebapi
     ports:
-      - "8081:80"
+      - "5100:5100"
       - "5001:443"
     networks:
       - postgresNetwork
     environment:
-      - ASPNETCORE_URLS=https://+:443;http://+:80
+      - ASPNETCORE_URLS=https://+:443;http://+:5100
       - ASPNETCORE_HTTPS_PORT=5001
       - ASPNETCORE_ENVIROMENT=Development
       - ASPNETCORE_Kestrel__Certificates__Default__Password=password
